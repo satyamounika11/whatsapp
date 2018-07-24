@@ -1,0 +1,55 @@
+:root {
+    font-size: 12px;
+    font-family: 'Slabo 27px', serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+  opacity: 1;
+  display: flex;
+  width: 50%;
+  height: 30vh;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.context {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .context {
+  opacity: 1;
+}
+
+.change {
+  color: black;
+  font-size: 2em;
+  padding: 16px 32px;
+}
+.profilePage .col-md-8{
+	background-color: #FFFFFF;
+}

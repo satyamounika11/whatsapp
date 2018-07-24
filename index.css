@@ -1,0 +1,163 @@
+:root {
+    font-size: 12px;
+    font-family: 'Slabo 27px', serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.profile{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.navbar-brand{
+	font-family: 'Slabo 27px', serif;
+    font-size: 2rem; 
+}
+.col-md-4 .row .col-md-2 > i{
+  font-size: 2em;
+  margin-top: 0.5em;
+ }
+ .contact_profile{
+ 	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+ }
+ .col-md-8 .row .col-md-1 > i{
+  font-size: 2em;
+  margin-top: 0.5em;
+ }
+ .col-md-8 .row .col-md-8 > p{
+  margin-top: 0.5em;
+  margin-left: 0.5rem;
+ }
+ .col-md-8 .row .col-md-2 > i{
+  font-size: 2em;
+  margin-top: 0.5em;
+ }
+ .col-md-4 .row .col-md-3 > i{
+  font-size: 2.5em;
+ }
+ .col-md-4 .row .col-md-9 > p{
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+  .col-md-4 .row .col-md-9 > small{
+  font-size: 1.4em;
+  }
+   .alerts .row .col-md-8 .row .col-md-4 > p{
+  	font-size: 1.2rem;
+  	border: 1px solid white;
+  	background-color: white;
+  	margin-top: 0.2em;
+  	padding-right: 0.2rem;
+  }
+   .search .row .col-md-12 > input{
+  	font-size: 1.3rem;
+  	margin-top: 0.3em;
+  }
+  .chatlog .row .col-md-8 .row .col-md-4 > p{
+  	font-size: 1.2rem;
+  	border: 1px solid white;
+  	margin-top: 0.2em;
+  	padding-right: 0.2rem;
+  }
+   .pup{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.sansa{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.arya{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.scroll{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.vertical{
+	height: 70vh;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+@media screen and (min-width: 480px)
+{
+	.col-md-4 .row .col-md-6 .navbar-brand .profile{
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		font-family: 'Slabo 27px', serif;
+   		font-size: 2rem; 
+	}
+	.col-md-4 .row .col-md-2 > i{
+  		font-size: 2em;
+ 		 margin-top: 0.5em;
+	}
+	.chatlog .img > img{
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.col-md-4 .row .col-md-6 .navbar-brand .profile{
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		font-family: 'Slabo 27px', serif;
+   		font-size: 2rem; 
+	}
+	.col-md-4 .row .col-md-2 > i{
+  		font-size: 2em;
+ 		 margin-top: 0.5em;
+	}
+	.chatlog .img > img{
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+	}
+}
+@media screen and (min-width: 768px)
+{
+	.col-md-4 .row .col-md-6 .navbar-brand .profile{
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		font-family: 'Slabo 27px', serif;
+   		font-size: 2rem; 
+	}
+	.col-md-4 .row .col-md-2 > i{
+  		font-size: 2em;
+ 		 margin-top: 0.5em;
+	}
+	.chatlog .img > img{
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+	}
+}
+.typingContent{
+  background-color: #FEF5E7;
+  position: fixed;
+  bottom: 0px;
+  width: 70%;
+}
+

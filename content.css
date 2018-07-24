@@ -1,0 +1,48 @@
+:root {
+    font-size: 13px;
+    font-family: 'Slabo 27px', serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FEF5E7;
+}
+.contact_profile{
+ 	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	margin-top: 1em;
+ }
+ .chat .col-6 > p{
+ 	margin-top: 1.5em;
+ }
+ .chat .col-1 > i{
+ 	margin-top: 1.5em;
+ 	font-size: 1.5em;
+ }
+ .typingContent{
+  background-color: #FEF5E7;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.scroll{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.vertical{
+	height: 70vh;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

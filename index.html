@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<title>Whatsapp Web</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light" >
+			<div class="col-md-4 col-12">
+			<div class="row">
+				<div class="col-md-6 col-6">
+  					<a class="navbar-brand" href="profile.html">
+    					<img src="jonsnow.jpg" class="profile" alt="profile_picture">
+    					<!-- Satya Mounika -->
+  					</a>
+				</div>
+  			<div class="col-md-2 col-2">
+				<i class="fas fa-circle-notch"></i>
+			</div>
+			<div class="col-md-2 col-2">
+				<i class="fas fa-comments"></i>
+			</div>
+			<div class="col-md-2 col-2">
+				<i class="fas fa-ellipsis-v"></i>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8 col-12 d-none d-md-block">
+		<div class="row">
+				<div class="col-md-1 col-6">
+  					<a class="navbar-brand" href="#">
+    					<img src="tyrion.jpg" class="contact_profile" alt="contact_picture">
+  					</a>
+				</div>
+				<div class="col-md-8 col-2">
+					<p><b>Tyrion Lannister</b><br>last seen today at 8:31 PM</p>
+				</div>
+  				<div class="col-md-1 col-2">
+					<i class="fas fa-search"></i>
+				</div>
+				<div class="col-md-1 col-2">
+					<i class="fas fa-paperclip"></i>
+				</div>
+				<div class="col-md-1 col-2">
+					<i class="fas fa-ellipsis-v"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+<section class="alerts container-fluid d-none d-md-block">
+	<div class="row">
+ <div class="col-md-4 col-12" style="background-color: #87CEFA;align-items: center;height: 15vh;display: flex;justify-content: flex-start;">
+  	<div class="row">
+		<div class="col-md-3">
+			<i class="fas fa-bell-slash px-4 py-4 rounded-circle bg-light "></i>
+		</div>
+		<div class="col-md-9">
+			<p>Get Notified of New Messages</p><small>Turn on desktop notifications</small>
+		</div>
+	</div>
+  </div>
+  <div class="col-md-8 col-12 d-none d-md-block" style="background-color: #FEF5E7">
+  	<div class="row" style="margin-top: 0.2em;">
+		<div class="col-md-4">
+			<p>Its a long and bloody tale. To be Honest,<small style="display: flex;justify-content: flex-end;">11:30 AM</small></p>
+			<p>I was drunk for most of it!<small style="display: flex;justify-content: flex-end;">11:31 AM</small></p>
+		</div>
+	</div>
+  </div>
+</div>
+</section>
+<section class="search container-fluid ">
+<div class="row">
+ <div class="col-md-4 col-12">
+  	<div class="row"  style="display: flex;justify-content: flex-start;">
+		<div class="col-md-12 col-12">
+			<input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Search or Start a new chat">
+		</div>
+	</div>
+  </div>
+  <div class="col-md-8 col-12 d-none d-md-block" style="background-color: #FEF5E7">
+  	<!-- <div class="row" style="display:flex;justify-content:flex-end;">
+		<div class="col-md-4 offset-md-4">
+			<p>She is!<small style="display: flex;justify-content: flex-end;">11:34 AM <i class="fas fa-check" style="color: #6a89cc;"></i></small></p>			
+		</div>
+	</div> -->
+  </div>
+</div>
+</section>
+<section class="mobile container-fluid d-md-none d-xl-none">
+      <div class="row bg-light">
+        <div class="col-4" style="display: flex;justify-content: center;align-items: center;">
+          <a style="color: black;font-size: 1.4em;">MAIN<span class="badge badge-success" style="margin-left:0.5em; font-size:0.8em;">3</span></a>
+        </div>
+      <div class="col-4" style="display: flex;justify-content: center;align-items: center;">
+        <a href="content.html" style="color: black;font-size: 1.4em;">CHAT</a>
+      </div>
+      <div class="col-4" style="display: flex;justify-content: center;align-items: center;">
+        <a style="color: black;font-size: 1.4em;">CALLS</a>
+      </div>
+    </div>
+    
+    </section>
+<section class="chatlog container-fluid d-md-block">
+<div class="row">
+ <div class="col-md-4 col-12 scroll vertical">
+  	<div class="row bg-light" style="height: 10vh; margin-top: 0.5em; border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="tyrion.jpg" class="profile" alt="profile_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Tyrion Lannister</b><br><i class="fas fa-check" style="color: #6a89cc;"></i>True! BUT I'M NOT A STARK!</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>11:34AM</p>
+			</div>
+	</div>
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="daenerys.jpg" class="pup" alt="pup_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Daenerys Targaryen</b><br>BEND THE KNEE!</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>11:00AM</p>
+			</div>
+	</div>
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="sansa.jpg" class="sansa" alt="pup_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Sansa Stark</b><br><i class="fas fa-check" style="color: #6a89cc;"></i>I've pledged our forces to Daenerys.</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>10:57AM</p>
+			</div>
+	</div> 
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="arya.jpg" class="arya" alt="pup_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Arya Stark</b><br>Can't wait to meet you!</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>10:50AM<br><span class="badge badge-success" style="margin-left: 3em; font-size: 0.9em;">3</span></p>
+			</div>
+	</div>
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="cersei.jpg" class="arya" alt="pup_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Cersei Lannister</b><br>You win or you die</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>10:45AM</p>
+			</div>
+	</div>
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="jaime.jpg" class="arya" alt="pup_picture">
+   					</a>
+				</div>
+  		<div class="col-md-7 col-7">
+			<p><b>Jaime Lannister</b><br>The things I do for love!</p>	
+		</div>
+		<div class="col-md-3 col-3">
+				<p>10:40AM<br><span class="badge badge-success" style="margin-left: 3em; font-size: 0.9em;">5</span></p>
+		</div>
+	</div>
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="jorah.jpg" class="arya" alt="pup_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Jorah Mormont</b><br>Daenerys Friend-zoned me!</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>10:30AM</p>
+			</div>
+	</div>
+	<div class="row" style="height: 10vh;border-bottom: 1.5px solid #F5F5F5;">
+		<div class="col-md-2 col-2">
+  					<a class="buggs" href="#">
+    					<img src="samwell.jpg" class="arya" alt="pup_picture">
+   					</a>
+				</div>
+  			<div class="col-md-7 col-7">
+				<p><b>Samwell Tarly</b><br>Where are you now?</p>	
+			</div>
+			<div class="col-md-3 col-3">
+				<p>Yesterday<br><span class="badge badge-success" style="margin-left: 3em; font-size: 0.9em;">2</span></p>
+			</div>
+	</div> 
+
+  </div>
+  <div class="col-md-8 col-12 d-none d-md-block" style="background-color: #FEF5E7">
+  	<div class="row" style="display:flex;justify-content:flex-end;">
+		<div class="col-md-4">
+			<p style="background-color: #98FB98;">My bannermen think I'm a fool for coming here!<small style="display: flex;justify-content: flex-end;">11:34 AM <i class="fas fa-check" style="color: #6a89cc;"></i></small></p>			
+		</div>
+	</div>
+  	<div class="row">
+		<div class="col-md-4">
+			<p style="background-color: white;">Of course they do.<small style="display: flex;justify-content: flex-end;">11:36 AM</small></p>
+			<p style="background-color: white;">If I was your hand I would have advised against it.<small style="display: flex;justify-content: flex-end;">11:37 AM</small></p>	
+			<p style="background-color: white;">Stark men don't fare well when they travel south!<small style="display: flex;justify-content: flex-end;">11:37 AM</small></p>			
+		</div>
+	</div>
+	<div class="row" style="display:flex;justify-content:flex-end;">
+		<div class="col-md-4">
+			<p style="background-color: #98FB98;">True! BUT I'M NOT A STARK!<small style="display: flex;justify-content: flex-end;">11:34 AM <i class="fas fa-check" style="color: #6a89cc;"></i></small></p>			
+		</div>
+	</div>
+	<div class="row typingContent">
+		<div class="col-md-1 col-2">
+			<i class="far fa-smile" style="color:#7f8c8d; display: flex;justify-content: center;" ></i>
+		</div>
+		<div class="col-md-9 col-8 form-group">
+    		<input type="text" class="form-control form-control-lg" placeholder="Type a message">
+  		</div>
+		<div class="col-md-2 col-2">
+			<i class="fas fa-microphone" style="color:#7f8c8d;"></i>
+		</div>
+	</div>
+
+ </div>
+</div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
